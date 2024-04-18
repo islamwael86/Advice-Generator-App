@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "customFont1";
+  src: url("./font/Manrope_Space_Grotesk/Manrope/Manrope-VariableFont_wght.ttf");
+}
+body {
+  font-family: customFont1;
+  width: 1440px;
+  height: 810px;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  transition-duration: 1s;
+}
+
+main {
+  border-radius: 15px;
+  width: 540px;
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+  top: -16px;
+  left: 35px;
+  transition-duration: 1s;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+q {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.click {
+  background-color: hsl(150, 100%, 66%);
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  right: 269px;
+}
+
+.click:hover {
+  box-shadow: 1px 1px 30px 2px hsl(193, 38%, 86%);
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+  main {
+    width: 305px;
+  }
+  .divider {
+    width: 230px;
+  }
+  q {
+    font-size: 18px;
+  }
+  .click {
+    position: relative;
+    top: 150px;
+    right: 125px;
+  }
+}
+@media (min-width: 321px) {
+  body {
+    width: 375px;
+  }
+  main {
+    width: 360px;
+    height: 383px;
+    position: relative;
+    top: -68px;
+  }
+  .divider {
+    width: 275px;
+  }
+  q {
+    font-size: 20px;
+  }
+  .click {
+    width: 77px;
+    height: 77px;
+    position: relative;
+    top: 123px;
+    right: 155px;
+  }
+  .dice {
+    width: 29px;
+    height: 29px;
+  }
+}
+@media (min-width: 375px) {
+  body {
+    width: 479px;
+  }
+  main {
+    width: 420px;
+  }
+  .divider {
+    width: 350px;
+  }
+  q {
+    font-size: 23px;
+  }
+  .click {
+    position: relative;
+    right: 210px;
+  }
+}
+@media (min-width: 480px) {
+  body {
+    width: 599px;
+  }
+  main {
+    width: 500px;
+  }
+  .divider {
+    width: 450px;
+  }
+  q {
+    font-size: 25px;
+  }
+  .click {
+    position: relative;
+    right: 250px;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    width: 767px;
+  }
+  main {
+    width: 540px;
+  }
+  q {
+    font-size: 28px;
+  }
+  .divider {
+    width: 475px;
+  }
+  .click {
+    position: relative;
+    right: 270px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    width: 899px;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    width: 1023px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1199px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    width: 1440px;
+  }
+  main {
+    height: 332px;
+    position: relative;
+    top: -16px;
+  }
+  .click {
+    width: 63px;
+    height: 63px;
+    position: relative;
+    top: 150px;
+    right: 269px;
+  }
+  .dice {
+    width: 24px;
+    height: 24px;
+  }
+}/*# sourceMappingURL=index.css.map */
